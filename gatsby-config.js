@@ -25,6 +25,7 @@ const plugins = [
     options: {
       name: `gatsby-starter-typescript`,
       short_name: `typescript-starter`,
+      homepage_url: `gatsby-typescript-starter-v1.netlify.com`,
       start_url: `/`,
       background_color: `#663399`,
       theme_color: `#663399`,
@@ -60,7 +61,7 @@ module.exports = {
     description,
     author,
     keywords,
-    siteUrl: 'https://localhost:9001'
+    siteUrl: 'https://gatsby-typescript-starter-v1.netlify.com'
   },
   plugins
 }
